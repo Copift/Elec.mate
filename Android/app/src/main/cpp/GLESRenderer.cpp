@@ -51,7 +51,7 @@ GLESRenderer::init(AAssetManager* assetManager)
 
     // Load Astronaut model
     {
-        if (!readAsset(assetManager, "Astronaut.obj", data))
+        if (!readAsset(assetManager, "Untitled_1_-1.obj", data))
         {
             return false;
         }

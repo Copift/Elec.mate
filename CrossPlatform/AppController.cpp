@@ -25,7 +25,7 @@ extern void* javaVM;
 namespace
 {
 // clang-format off
-constexpr char licenseKey[] = "";
+constexpr char licenseKey[] = "AYR/+Hn/////AAABmQEa5g52GUg4naq7QcFKryF+6XngU4+ha+g+mmKcyFcEdK1fEqSuw2M5EOj2jXgtZWz5VOTeMMx03UE6NcA9L+SMlgboOP+yka/ZnBO7lzoirfVh4vzrEUFDSBw9uHHjOCxyTzIpPQodY1PxpDcr3f7tjY4QC2ohapQqUAaDtAA+tc20OYjdWQrtfkz2D+apcbcpmJdUgA4DJKBhcANNeJ1ribbAlDxaQHLJJFP1tOOLtOJu7Y6pn9CGRjQm9Ig8qXYKvHzbOFdYgLEUqnkuweci/puWCMutGiruGKdFa7Lxqw7Z7MCrIZITxyzig9CI6atJ9YiY5IJ/4DsqyVOa8V9ml9jZFtBweKr1a6H9f2Sj";
 // clang-format on
 
 constexpr float NEAR_PLANE = 0.01f;
@@ -831,8 +831,8 @@ AppController::createObservers()
     if (mTarget == IMAGE_TARGET_ID)
     {
         auto imageTargetConfig = vuImageTargetConfigDefault();
-        imageTargetConfig.databasePath = "StonesAndChips.xml";
-        imageTargetConfig.targetName = "stones";
+        imageTargetConfig.databasePath = "hacaton_db.xml";
+        imageTargetConfig.targetName = "sign2";
         imageTargetConfig.activate = VU_TRUE;
 
         VuImageTargetCreationError imageTargetCreationError;

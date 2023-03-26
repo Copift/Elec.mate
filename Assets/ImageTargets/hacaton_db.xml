@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+  <Tracking>
+    <ImageTarget name="sign2" size="0.247 0.172"/>
+  </Tracking>
+</QCARConfig>

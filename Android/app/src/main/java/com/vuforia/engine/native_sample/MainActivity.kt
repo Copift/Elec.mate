@@ -26,7 +26,7 @@ class MainActivity : AppCompatActivity() {
 
 
     fun goToActivity(view: View) {
-        if (view.id == btn_image_target.id || view.id == btn_model_target.id) {
+        if (view.id == btn_image_target.id ) {
 
             val intent = Intent(
                 this@MainActivity,

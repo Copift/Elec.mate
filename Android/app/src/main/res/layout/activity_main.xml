@@ -71,7 +71,7 @@
                     android:background="?android:attr/colorBackground"
                     android:contentDescription="@string/main_model_target_label"
                     android:onClick="goToActivity"
-                    android:src="@drawable/ic_modeltarget"
+                    android:src="@drawable/sckrepka"
                     app:tint="?android:attr/colorForeground"
                     />
 
